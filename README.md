@@ -48,13 +48,21 @@ You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hug
 
 ## Contents
 
-- [Installation](#installation)
-- [Getting started](#getting-started)
-    - [Setup](#setup)
-    - [Viewing](#viewing)
-    - [Building](#building)
-- [Contributing](#contributing)
-- [License](#license)
+- [Hugo DevResume Theme](#hugo-devresume-theme)
+    - [Screenshot](#screenshot)
+    - [Features](#features)
+        - [Original](#original)
+        - [Added](#added)
+    - [Demo](#demo)
+    - [Contents](#contents)
+    - [Installation](#installation)
+    - [Getting Started](#getting-started)
+        - [Setup](#setup)
+        - [Viewing](#viewing)
+        - [Building](#building)
+    - [Developing](#developing)
+    - [Contributing](#contributing)
+    - [License](#license)
 
 
 
@@ -102,8 +110,11 @@ within the root of your project.
 
 
 
+## Developing
 
+To test the theme, execute the following:
 
+    $ hugo server -s exampleSite --themesDir=../.. --disableFastRender
 
 
 ## Contributing
